@@ -4,7 +4,7 @@ src: url(FragmentMono-Regular.woff2);
 
 }
 
-;body{
+body{
   background-color: 230;
   padding: 0;
   margin: 0;
@@ -13,7 +13,7 @@ src: url(FragmentMono-Regular.woff2);
 
 
 
-.intro{
+.info{
 
     text-align: center;
     font-family:'FragmentMono',serif;
@@ -26,7 +26,7 @@ src: url(FragmentMono-Regular.woff2);
 
 }
 
-.prez{
+.main{
 
   background-color: 155;
   text-align: center;
@@ -37,6 +37,14 @@ src: url(FragmentMono-Regular.woff2);
   outline: none;
   width:auto;
   background: none;
+  
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+            cursor: default;
 
 }
 
@@ -45,48 +53,23 @@ src: url(FragmentMono-Regular.woff2);
 footer {
 
   position: absolute;
-  bottom: 0;
+  bottom:;
   width: 100%;
   height: 50px;
 }
 
-span{
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none;
-            cursor: none;
-}
 
 
 
 
-
-
-.one{
-
-}
 
 img{
-    display: none;
-    position: absolute;
-    height: 80vh;
-    width: auto;
-    margin: auto;
+    display: none; 
 }
 
-.image{
-  /* display: block;s */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 
-}
 
-/*
+
 span:hover + img{
    display:block;
    height: auto;
@@ -95,6 +78,4 @@ span:hover + img{
    max-height: 400px;
    margin:auto;
    padding-top: 10px;
-
-
-} */
+}
