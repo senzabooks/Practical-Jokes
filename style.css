@@ -28,7 +28,7 @@ body{
 
 .main{
 
-  background-color: 155;
+  
   text-align: center;
   font-family:'FragmentMono',serif;
   font-size: 30px;
@@ -71,6 +71,15 @@ img{
   left: 50%;
   transform: translate(-50%,-50%);
 }
+
+ a{
+      color: rgb(235,235,235);
+      text-decoration: none;
+      text-align: center;
+      font-family:'FragmentMono',serif;
+      font-size: 30px;
+       line-height: 30px;
+    }
 
 
 
