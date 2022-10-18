@@ -73,12 +73,12 @@ img{
 }
 
  a{
-      color: rgb(235,235,235);
+      color: rgb(0,0,0);
       text-decoration: none;
       text-align: center;
       font-family:'FragmentMono',serif;
       font-size: 30px;
-       line-height: 30px;
+      line-height: 30px;
     }
 
 
