@@ -1,3 +1,3 @@
 
 
-current: Image from Standing out.
+current: Image from Standing Out.
