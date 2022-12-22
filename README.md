@@ -1,3 +1,3 @@
 
 
-current: Moving alphabet process.
+current: Image from Standing out.
