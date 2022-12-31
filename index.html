@@ -4,7 +4,11 @@
 <title>Senza Books</title>
   
 <style>
-
+  
+  @font-face {
+  font-family: 'FragmentMono';
+  src: url(FragmentMono-Regular.woff2);
+     
   body{
   font-family: Sans-Serif;
   background: white;
@@ -17,6 +21,21 @@
   text-align: center;
   min-height: 100vh
   }
+  
+  .info {
+        text-align: center;
+        font-family:'FragmentMono',monospace;
+        font-size: 10px;
+        color: rgb(225,225,225);
+        line-height: 20px;
+        border: none;
+        outline: none;
+        width:auto;
+        background: none;
+   
+  }
+
+  }
 
 </style>
   
@@ -24,12 +43,12 @@
 <body>
  
 <div class="centered" >
-  <a href="stan_calendar_2023.pdf" download> <p>Download calendar</p> </a>
+  <a href="senza_calendar_2023.pdf" download> <p>Download calendar</p> </a>
   <br>
-  <p>Happy New Year!</p>
+  <p>Happy printing in 2023!</p>
   </div>
   
- <footer> Calendar for 2023 by Stanislaw Zielinski. 
+ <footer class="info"> A4 Senza calendars by Stanislaw Zielinski. 
    contact: stanislawgzielinski@gmail.com &copy Senza Books 2023
   </footer>
 
