@@ -63,27 +63,11 @@
 
   
  <footer class="info"> 
-<span>Practical Jokes. </span><br><span>Today is </span> <span class="date></><br>
-
+<span>Practical Jokes, </span> <span>07/12/3046</span><br>
 stanislawgzielinski@gmail.com &copy&nbspSenza Books 2023 
   </footer>
 	
-<script>	
-	
-const dateElement = document.querySelector(".date");
-	
-function getRandomDate() {
-    const maxDate = Date.now();
-    const timestamp = Math.floor(Math.random() * maxDate);
-    return new Date(timestamp);
-}
 
-	
-setInterval(() => {
-dateElement.innerText = getRandomDate();
-}, 2500);
-	
-</script>
 
 </body>
 </html>
