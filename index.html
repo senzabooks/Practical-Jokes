@@ -63,8 +63,24 @@
 
   
  <footer class="info"> 
-<span>Practical Jokes. </span><script> document.write(new Date().toLocaleDateString()); </script>
-contact: senzabooks@gmail.com &copy&nbspSenza Books 2023 
+<span>Practical Jokes. </span><br><span>Today is </span> <span class="date></><br>
+<script>	
+	
+const dateElement = document.querySelector(".date");
+	
+function getRandomDate() {
+    const maxDate = Date.now();
+    const timestamp = Math.floor(Math.random() * maxDate);
+    return new Date(timestamp);
+}
+
+	
+setInterval(() => {
+dateElement.textContent = getRandomDate();
+}, 2500);
+	
+</script>
+stanislawgzielinski@gmail.com &copy&nbspSenza Books 2023 
   </footer>
 
 </body>
